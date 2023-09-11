@@ -1,0 +1,13 @@
+variable "prefix_name" {}
+variable "ami" {}
+variable "key_name" {}
+variable "vpc_id" {}
+variable "subnet_id" {}
+variable "instance_type" {}
+variable "associate_public_ip_address" {}
+variable "vpc_security_group_ids" {}
+variable "ebs" {}
+variable "ami_owner" {}
+variable "ami_owner_name" {}
+variable "ami_owner_virtualization_type" {}
+variable "ami_owner_root_device_type" {}
